@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="685.214" height="618.672" viewBox="0 0 685.214 618.672">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Контур_108" data-name="Контур 108" d="M0,201.637H685.214V-417.035H0Z" transform="translate(0 417.035)" fill="#eaeaea"/>
+    </clipPath>
+  </defs>
+  <g id="Сгруппировать_147" data-name="Сгруппировать 147" transform="translate(0 417.035)" style="isolation: isolate">
+    <g id="Сгруппировать_139" data-name="Сгруппировать 139" transform="translate(0.001 -170.328)" style="isolation: isolate">
+      <path id="Контур_101" data-name="Контур 101" d="M.094,0,45.436,51.945-.194,103.813v.071H120.372V0Z" transform="translate(0.194)" fill="#fc3"/>
+    </g>
+    <g id="Сгруппировать_140" data-name="Сгруппировать 140" transform="translate(91.209 -170.328)">
+      <path id="Контур_102" data-name="Контур 102" d="M0,13.476,30.419-27.872,28.167,13.476Z" transform="translate(0 27.872)" fill="#d5a310"/>
+    </g>
+    <g id="Сгруппировать_141" data-name="Сгруппировать 141" transform="translate(564.648 -170.328)" style="isolation: isolate">
+      <path id="Контур_103" data-name="Контур 103" d="M0,0V103.884H120.566v-.071L74.935,51.945,120.278,0Z" fill="#fc3"/>
+    </g>
+    <g id="Сгруппировать_142" data-name="Сгруппировать 142" transform="translate(564.648 -170.328)">
+      <path id="Контур_104" data-name="Контур 104" d="M9.445,13.468l-28.98-41.324.059,41.324Z" transform="translate(19.535 27.856)" fill="#d5a310"/>
+    </g>
+    <g id="Сгруппировать_146" data-name="Сгруппировать 146" transform="translate(0 -417.035)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <g id="Сгруппировать_143" data-name="Сгруппировать 143" transform="translate(118.415 2.967)">
+        <path id="Контур_105" data-name="Контур 105" d="M146.99,15.131V394.38L-78.51,580.564-304.01,394.38V15.131c69-30.378,146.922-46.426,225.5-46.426s156.5,16.049,225.5,46.426" transform="translate(304.01 31.295)" fill="#fff"/>
+      </g>
+      <g id="Сгруппировать_144" data-name="Сгруппировать 144" transform="translate(118.415 2.967)" style="isolation: isolate">
+        <path id="Контур_106" data-name="Контур 106" d="M146.99,14.923V392.468L-78.51,577.816l-225.5-185.348V14.923c69-30.241,146.922-46.218,225.5-46.218S77.993-15.319,146.99,14.923Z" transform="translate(304.01 34.043)" fill="none" stroke="#ef3b39" stroke-width="10"/>
+      </g>
+      <g id="Сгруппировать_145" data-name="Сгруппировать 145" transform="translate(134.419 23.134)" style="isolation: isolate">
+        <path id="Контур_107" data-name="Контур 107" d="M136.558,14.222V364.29l-209.5,173.424-209.5-173.424V14.222c62.4-27.826,133.723-43.636,209.5-43.636s147.1,15.81,209.5,43.636" transform="translate(282.434 29.414)" fill="#231f20"/>
+      </g>
+    </g>
+    <path id="Контур_109" data-name="Контур 109" d="M563.9-119.6H61.482V-222.862H563.9Z" transform="translate(29.727 93.883)" fill="#fc3"/>
+  </g>
+</svg>
