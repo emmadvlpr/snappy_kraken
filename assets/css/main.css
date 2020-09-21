@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Calps-Regular';
+    src: url('../fonts/Calps-Regular.eot');
+    src: url('../fonts/Calps-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calps-Regular.woff') format('woff'),
+        url('../fonts/Calps-Regular.otf') format('otf'),
+        url('../fonts/Calps-Regular.svg#Calps-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Calps-SemiLightItalic';
+    src: url('../fonts/Calps-SemiLightItalic.eot');
+    src: url('../fonts/Calps-SemiLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calps-SemiLightItalic.woff') format('woff'),
+        url('../fonts/Calps-SemiLightItalic.otf') format('otf'),
+        url('../fonts/Calps-SemiLightItalic.svg#Calps-SemiLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'HighVoltage';
+    src: url('../fonts/HighVoltage.eot');
+    src: url('../fonts/HighVoltage.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HighVoltage.woff') format('woff'),
+        url('../fonts/HighVoltage.otf') format('otf'),
+        url('../fonts/HighVoltage.svg#HighVoltage') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+BODY {
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
+	color: #000;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #fff;
+}
+A { 
+	text-decoration: none; 
+	outline: none !important; 
+	
+}
+A:HOVER { text-decoration: underline; }
+strong {
+	font-weight: 700;
+}
+IMG { border: none; height: auto;}
+LABEL { cursor: pointer; }
+INPUT, TEXTAREA { outline: none; }
+BUTTON SPAN {display: none;}
+TEXTAREA {resize: none;}
+IFRAME {
+	margin: 0;
+	border: none;
+}
+input::-webkit-input-placeholder {opacity: 1;}
+input::-moz-placeholder          {opacity: 1;}/* Firefox 19+ */
+input:-moz-placeholder           {opacity: 1;}/* Firefox 18- */
+input:-ms-input-placeholder      {opacity: 1;}
+TABLE {
+	border: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.jq-selectbox UL {margin: 0 !important;}
+section, article, header, footer {display:block;}
+H1, H2, H3, H4, H5, H6, P, FIELDSET, FORM, UL, OL, LI, DL, DT, DD {
+	padding: 0;
+	margin: 0;
+}
+H1 A, H2 A, H3 A, H4 A, H5 A, H6 A {text-decoration: none !important;}
+#content H1, #content H2, #content H3, #content H4, #content H5, #content H6 {
+	margin: 0 0 15px;
+	font-weight: 400;
+}
+#content P, #content UL, #content OL {
+	margin-bottom: 15px;
+}
+#content UL {margin-left: 20px;}
+#content OL {margin-left: 25px;}
+#content A {color: #EF3B39;}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.navbar-toggle {
+	position: absolute;
+	right: 0;
+	top: 50px;
+	display: none;
+	width: 27px;
+	outline: none;
+	text-decoration: none;
+	background: none;
+	cursor: pointer;
+	border: none;
+	padding: 0;
+}
+.navbar-toggle span {
+	height: 4px;
+	display: block;
+	margin-bottom: 3px;
+	background-color: #fff;
+}
+#page {
+	min-width: 220px;
+	overflow: hidden;
+}
+
+/*  Header  */
+#header {
+	
+}
+#nav {
+	font-size: 18px;
+	font-weight: 300;
+}
+/*  Content  */
+#content {
+	
+}
+/*  Footer  */
+#footer {
+	
+}
+
+
+.btn {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;  
+	padding: 0;
+	position: relative;
+	border: none !important;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+     transition: all 0.3s;
+	font-size: 53px;
+	font-family: 'Calps-Regular';
+	background: #EF3B39;
+	color: #fff !important;
+	width: 530px;
+	text-align: center;
+	padding: 7px 0;
+	margin: 0 auto;
+	line-height: 160%;
+}
+
+.btn:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+
+
+.container {
+	max-width: 1600px;
+}
+.bg {
+	padding: 50px 0;
+	text-align: center;
+	background: url("../images/halftone.png") repeat left top;
+}
+.bg p {
+	font-family: 'Calps-SemiLightItalic';
+}
+.box {
+	background: #fff;
+	padding: 0 30px;
+	display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  height: 350px;
+	  width: 350px;
+	  margin: 0 auto;
+}
+#content .box h4 {
+	font-size: 35px;
+	line-height: 100%;
+	margin-bottom: 0;
+	font-family: 'Calps-SemiLightItalic';
+}
+#content .box h4 a {
+	color: #000;
+}
+.box h4 span {
+	display: flex;
+	height: 160px;
+	justify-content: center;
+	  align-items: center;
+}
+#content h2 {
+	font-family: 'HighVoltage';
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#content h2 span {
+	position: relative;
+	padding: 0 7px;
+}
+#content h2 em {
+	font-style: normal;
+	position: relative;
+}
+#content h2 span:before {
+	height: 24px;
+	background: #FFCC33;
+	content: '';
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+}
+#content h3 {
+	font-size: 37px;
+	text-align: center;
+	color: #707070;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#content .boxes h3 {
+	margin-bottom: 100px;
+}
+#content h3 strong {
+	color: #EF3B39;
+}
+.boxes {
+	padding: 100px 0;
+	text-align: center;
+}
+.boxes .btn {
+	margin-top: 100px;
+}
+.boxes .row {
+	text-align: center;
+}
+.boxes .col-lg-3:first-child .text-box {
+	border-left: none;
+}
+.boxes .text-box {
+	text-align: left;
+	padding: 20px 40px 20px 65px;
+	border-left: 1px dashed #707070;
+}
+.boxes .text-box p {
+	line-height: 130%;
+}
+.boxes .img {
+	height: 200px;
+}
+	
