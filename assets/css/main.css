@@ -447,9 +447,12 @@ H6 A {
   height: 1045px;
 }
 .owl-carousel .owl-item .in-box img {
-  margin: 120px 0 100px;
-  width: 83%;
+  width: 80%;
   display: inline-block;
+}
+.in-box-img {
+  height: 470px;
+  margin: 100px 0 0;
 }
 .carousel {
   position: absolute;
@@ -961,4 +964,22 @@ H6 A {
 }
 #content .top-box {
   padding-bottom: 75px;
+}
+.img-slider {
+  padding: 150px 0 130px;
+  background: url("../images/halftone11.png") no-repeat center bottom;
+}
+#content .img-slider h2 {
+  margin-bottom: 50px;
+}
+#content .img-slider h3 {
+  color: #000;
+  margin: 70px 0;
+}
+#content .img-slider .btn {
+  display: inline-block;
+  margin: 0 auto;
+}
+#content .img-slider .container {
+  text-align: center;
 }
