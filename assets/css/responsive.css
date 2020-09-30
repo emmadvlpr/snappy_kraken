@@ -55,7 +55,7 @@
   .indent-text {
     width: 70%;
   }
-  .btn {
+  a.btn {
     width: 300px;
   }
   #content .reviews.large p {
@@ -99,6 +99,9 @@
   .in-box-img {
     height: 350px;
   }
+  .box-indent {
+    width: 76%;
+  }
 }
 @media screen and (max-width: 1390px) {
   .box {
@@ -135,7 +138,7 @@
   #content h3 {
     font-size: 28px;
   }
-  .btn,
+  a.btn,
   #content .with-carousel .btn,
   .holder .btn {
     font-size: 32px;
@@ -218,6 +221,9 @@
     font-size: 36px;
     line-height: 77px;
   }
+  .options .container {
+    max-width: 90%;
+  }
   #content .section p {
     font-size: 26px;
   }
@@ -227,6 +233,9 @@
   #content .section .box-text {
     padding: 0 70px;
     height: 480px;
+  }
+  .navbar ul a {
+    margin-right: 30px;
   }
   .small-boxes {
     padding: 100px 0 0;
@@ -269,6 +278,66 @@
   }
 }
 @media screen and (max-width: 992px) {
+  .navbar ul {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .sighin {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .logo {
+    margin-top: 0;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+  }
+  .navbar {
+    padding: 0;
+    text-align: left;
+  }
+  .header {
+    padding: 20px !important;
+  }
+  .navbar ul {
+    margin-top: 56px;
+  }
+  .navbar ul li {
+    padding: 10px 0;
+  }
+  .navbar ul li a {
+    display: block;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    padding: 0;
+    width: 25px;
+  }
+  .navbar-toggler span {
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 4px;
+  }
+  .price-box {
+    margin: 0;
+  }
+  #content .price-box p,
+  #content .price-box h4 {
+    font-size: 24px;
+  }
+  #content .total-in .price-box .large p strong {
+    font-size: 88px;
+  }
+  #content .total-in .price-box .large {
+    padding: 30px 0;
+  }
+  #content .price-box p strong {
+    font-size: 60px;
+  }
   .in-box {
     height: 890px;
   }
@@ -344,6 +413,12 @@
     -webkit-background-size: 16px auto;
     background-size: 16px auto;
     background-position: 17px center;
+  }
+  #content .top-box h1 {
+    font-size: 71px;
+  }
+  #content .top-box h1 span::before {
+    bottom: 31px;
   }
   #content .list ul {
     margin-top: 0;
@@ -589,7 +664,7 @@
     width: 228px;
   }
   .in-box {
-    height: auto;
+    height: 590px;
     padding: 0 0 40px;
     text-align: center;
   }
@@ -684,7 +759,7 @@
     width: 100%;
   }
   .fpo .container {
-    max-width: 100%;
+    max-width: 90%;
     padding: 0;
   }
   .fpo {
@@ -723,6 +798,7 @@
   }
   .slider .owl-dots {
     top: 0;
+    left: -40px;
   }
   .slider {
     margin-top: 40px;
@@ -880,8 +956,98 @@
   #content .img-slider h3 {
     margin: 30px 0;
   }
+
+  #content .pricing h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+  }
+  .box-indent {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #content .pricing .list ul {
+    width: auto;
+    margin: 0;
+  }
+  .center-img {
+    display: none;
+  }
+  #content .title {
+    margin: 50px 0;
+  }
+  #content .title h3 {
+    font-size: 22px;
+    top: -25px;
+  }
+  .price-box {
+    margin-bottom: 20px;
+  }
+  #content .price-box p {
+    margin-top: 20px;
+  }
+  .total-in {
+    width: 100%;
+  }
+  .total-in p {
+    font-size: 18px;
+  }
+  .input {
+    margin: -50px 0 0;
+  }
+  .price-box .price-box {
+    top: -460px;
+    width: 50%;
+
+    left: 0;
+  }
+  #content .boxes3 .price-box .price-box {
+    padding: 30px 10px;
+  }
+  #content .select {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  #content .boxes3 .price-box p {
+    margin-bottom: 0px;
+  }
+  #content .boxes3 .price-box .price-box p {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  #content .price-box .price-box h4 {
+    padding-bottom: 20px;
+  }
+  #content .boxes3 .price-box .price-box p strong {
+    font-size: 50px;
+  }
+  #content .top-box h1 {
+    font-size: 31px;
+  }
+  #content .top-box h1 span::before {
+    bottom: 15px;
+  }
+  .btn {
+    line-height: 110% !important;
+  }
+  #content .top-box p {
+    display: none;
+  }
+  .modal {
+    padding-right: 0 !important;
+  }
+  .modal-lg {
+    max-width: 100%;
+  }
+  /*end 767*/
 }
 
+@media screen and (max-width: 500px) {
+  .in-box {
+    height: 680px;
+  }
+}
 @media screen and (max-width: 350px) {
   .g-box {
     width: 320px;
@@ -892,5 +1058,17 @@
   #content .guarantee h3 {
     margin-top: 15px;
     margin-bottom: 28px;
+  }
+  #content .top-box h1 {
+    font-size: 27px;
+  }
+  #content .top-box h1 span::before {
+    bottom: 12px;
+  }
+  .in-box {
+    height: 780px;
+  }
+  #content h2 {
+    font-size: 25px;
   }
 }

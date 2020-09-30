@@ -5,6 +5,7 @@
   src: url("../fonts/Calps-Regular.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Calps-Regular.woff") format("woff"),
     url("../fonts/Calps-Regular.otf") format("otf"),
+    url("../fonts/Calps-Regular.ttf") format("truetype"),
     url("../fonts/Calps-Regular.svg#Calps-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
@@ -16,6 +17,7 @@
   src: url("../fonts/Calps-Medium.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Calps-Medium.woff") format("woff"),
     url("../fonts/Calps-Medium.otf") format("otf"),
+    url("../fonts/Calps-Medium.ttf") format("truetype"),
     url("../fonts/Calps-Medium.svg#Calps-Medium") format("svg");
   font-weight: 300;
   font-display: swap;
@@ -26,6 +28,7 @@
   src: url("../fonts/Calps-Light.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Calps-Light.woff") format("woff"),
     url("../fonts/Calps-Light.otf") format("otf"),
+    url("../fonts/Calps-Light.ttf") format("truetype"),
     url("../fonts/Calps-Light.svg#Calps-Light") format("svg");
   font-weight: 300;
   font-display: swap;
@@ -36,6 +39,7 @@
   src: url("../fonts/Calps-LightItalic.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Calps-LightItalic.woff") format("woff"),
     url("../fonts/Calps-LightItalic.otf") format("otf"),
+    url("../fonts/Calps-LightItalic.ttf") format("truetype"),
     url("../fonts/Calps-LightItalic.svg#Calps-LightItalic") format("svg");
   font-weight: 300;
   font-style: italic;
@@ -47,6 +51,7 @@
   src: url("../fonts/Calps-BoldItalic.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Calps-BoldItalic.woff") format("woff"),
     url("../fonts/Calps-BoldItalic.otf") format("otf"),
+    url("../fonts/Calps-BoldItalic.ttf") format("truetype"),
     url("../fonts/Calps-BoldItalic.svg#Calps-BoldItalic") format("svg");
   font-weight: 300;
   font-style: italic;
@@ -59,6 +64,7 @@
       format("embedded-opentype"),
     url("../fonts/Calps-SemiLightItalic.woff") format("woff"),
     url("../fonts/Calps-SemiLightItalic.otf") format("otf"),
+    url("../fonts/Calps-SemiLightItalic.ttf") format("truetype"),
     url("../fonts/Calps-SemiLightItalic.svg#Calps-SemiLightItalic")
       format("svg");
   font-weight: 300;
@@ -71,17 +77,7 @@
   src: url("../fonts/HighVoltage.eot?#iefix") format("embedded-opentype"),
     url("../fonts/HighVoltage.woff") format("woff"),
     url("../fonts/HighVoltage.otf") format("otf"),
-    url("../fonts/HighVoltage.svg#HighVoltage") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "HighVoltage";
-  src: url("../fonts/HighVoltage.eot");
-  src: url("../fonts/HighVoltage.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/HighVoltage.woff") format("woff"),
-    url("../fonts/HighVoltage.otf") format("otf"),
+    url("../fonts/HighVoltage.ttf") format("truetype"),
     url("../fonts/HighVoltage.svg#HighVoltage") format("svg");
   font-weight: normal;
   font-style: normal;
@@ -238,7 +234,7 @@ H6 A {
 #footer {
 }
 
-.btn {
+a.btn {
   border-radius: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -260,10 +256,10 @@ H6 A {
   margin: 0 auto;
   line-height: 160%;
 }
-.btn.black {
+a.btn.black {
   background: #231f20;
 }
-.btn:hover {
+a.btn:hover {
   text-decoration: none;
   opacity: 0.8;
 }
@@ -311,6 +307,7 @@ H6 A {
   text-align: center;
   text-transform: uppercase;
 }
+
 #content h1 {
   font-size: 140px;
   text-align: left;
@@ -540,9 +537,15 @@ H6 A {
   margin: 30px 0 50px 17px;
   list-style: none;
 }
+#content .list ul ul {
+  margin: 10px 0 10px 40px;
+}
 #content .list ul li {
   position: relative;
   margin-bottom: 10px;
+}
+#content .list ul ul li {
+  margin-bottom: 0;
 }
 #content .list ul li:before {
   content: "";
@@ -668,7 +671,7 @@ H6 A {
 .slider .owl-dots {
   width: 118px;
   position: absolute;
-  left: -40px;
+  left: -20px;
   top: 50px;
 }
 .slider .owl-dots button {
@@ -807,7 +810,9 @@ H6 A {
   max-width: 1000px;
 }
 .guarantee {
-  background: url("../images/halftone-2.png") no-repeat center top;
+  background: url("../images/halftone-2.png") no-repeat left center;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
   text-align: center;
   padding-top: 30px;
 }
@@ -982,4 +987,341 @@ H6 A {
 }
 #content .img-slider .container {
   text-align: center;
+}
+
+.pricing {
+  margin-bottom: 50px;
+}
+#content .pricing h1 {
+  font-size: 90px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#content .pricing h3,
+#content .pricing h2 {
+  text-align: left;
+}
+#content .pricing .opt {
+  font-family: "Zooja";
+  font-size: 50px;
+  margin-top: -20px;
+}
+.box-indent {
+  width: 56%;
+}
+.box-indent.right {
+  float: right;
+}
+#content .pricing .container {
+  position: relative;
+}
+.center-img {
+  position: absolute;
+  left: 0;
+  top: 200px;
+  right: 0;
+  height: 80%;
+  width: 2px;
+  margin: 0 auto;
+  border-left: 1px dashed #707070;
+}
+.center-img img {
+  height: 207px;
+  position: absolute;
+  left: -110px;
+  top: 350px;
+}
+#content .title {
+  position: relative;
+  text-align: center;
+  margin: 100px 0 30px;
+  border-top: 1px solid #707070;
+}
+#content .title h3 {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  display: inline-block;
+  padding: 10px 30px;
+  background: #fff;
+  top: -35px;
+  position: relative;
+}
+#content .title h3 em {
+  font-weight: 400;
+  text-transform: none;
+}
+.price-box {
+  background: #cbcbcb;
+  border: 1px solid #707070;
+  margin: 0 20px;
+  text-align: center;
+  padding: 30px;
+  min-height: 316px;
+  cursor: pointer;
+  position: relative;
+}
+.price-box.selected,
+.price-box .price-box {
+  background: #ffcc33;
+  border: 7px solid #000;
+}
+#content .price-box h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin: 0 auto 40px;
+  width: 70%;
+  border-bottom: 1px solid #707070;
+}
+#content .price-box p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 120%;
+}
+
+#content .price-box p strong {
+  display: block;
+  font-size: 88px;
+  margin-bottom: 30px;
+}
+#content .price-box p sup {
+  font-size: 30px;
+  top: -32px;
+  left: -3px;
+  position: relative;
+}
+.options .container {
+  max-width: 1100px;
+}
+
+.btn-default {
+  background: #ef3b39 !important;
+  border: none;
+}
+.btn-primary {
+  background: #ffcc33 !important;
+  border: none;
+}
+
+.toggle.btn {
+  min-width: 95px;
+  min-height: 49px;
+}
+.input {
+  margin: -55px auto -45px;
+}
+.toggle.ios,
+.toggle-on.ios,
+.toggle-off.ios {
+  border-radius: 27px;
+}
+.toggle.ios .toggle-handle {
+  border-radius: 50%;
+  background: #fff !important;
+}
+
+.toggle-handle {
+  width: 45px;
+  height: 45px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.11);
+}
+.ios label.btn {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #000;
+  padding: 0 13px !important;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: left;
+}
+
+.ios.off label.btn {
+  color: #fff;
+  text-align: right;
+}
+
+.toggle-handle {
+  position: absolute;
+  right: 52%;
+  top: 2px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.off .toggle-handle {
+  right: auto;
+  left: 52%;
+}
+.toggle-handle.btn-lg {
+  width: 45px;
+}
+
+.ios.btn,
+.ios .btn {
+  padding: 0 !important;
+}
+.toggle-group * {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.total-in {
+  width: 530px;
+  margin: -60px auto 0;
+  text-align: center;
+}
+.total-in p {
+  font-size: 23px;
+}
+.total-in label {
+  font-weight: 700;
+  font-size: 25px;
+  display: block;
+  text-transform: uppercase;
+}
+.total-in input {
+  width: 109px;
+  padding: 7px;
+  text-align: center;
+  border: 1px solid #707070;
+  font-size: 30px;
+  font-weight: 700;
+}
+.total-in .price-box {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+#content .total-in .price-box .large {
+  padding: 70px 0;
+}
+#content .total-in .price-box .large p strong {
+  font-size: 136px;
+}
+#content .select {
+  font-size: 33px;
+  font-weight: 700;
+  background: #000;
+  color: #fff;
+  margin: 450px auto 40px;
+  padding: 30px 10px 20px;
+  text-align: center;
+  width: 638px;
+}
+#content .boxes3 .price-box {
+  min-height: 193px;
+  padding: 70px 20px;
+  margin-bottom: 40px;
+}
+#content .boxes3 .price-box p {
+  margin: 0;
+}
+#content .boxes3 .price-box p strong {
+  font-size: 75px;
+  margin: 0;
+}
+.price-box .price-box {
+  z-index: 77;
+  position: absolute;
+  top: -482px;
+  width: 530px;
+
+  left: -155px;
+}
+.price-box .price-box:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 68px;
+  height: 48px;
+  content: "";
+  bottom: -44px;
+  background: url("../images/yellow.png") no-repeat left top;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+#content .boxes3 .price-box .price-box p strong {
+  font-size: 88px;
+  margin-bottom: 20px;
+}
+#content .boxes3 .price-box .price-box {
+  padding: 40px 20px;
+  margin-bottom: 0;
+}
+#content .price-box .price-box h4 {
+  width: 78%;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+}
+.logo {
+  float: left;
+  margin-right: 20px;
+  margin-top: 7px;
+}
+.logo img {
+  height: 60px;
+}
+.header {
+  padding: 25px 30px !important;
+  background: #231f20;
+  margin-bottom: 100px;
+}
+.sighin {
+  float: right;
+  font-size: 24px;
+  color: #000;
+  background: #fff;
+  padding: 18px 30px;
+}
+.navbar ul {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.navbar ul a {
+  color: #fff;
+  margin-right: 70px;
+  text-transform: uppercase;
+}
+.navbar ul a:hover,
+.navbar ul .active a {
+  text-decoration: none;
+  color: #ef3b39;
+}
+.home .header {
+  display: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.header.smaller {
+  display: block;
+  z-index: 777;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(35, 31, 32, 0.9);
+}
+.modal-body video {
+  width: 100% !important;
+}
+.modal-lg {
+  max-width: 65%;
+}
+button,
+.owl-dot {
+  outline: none !important;
 }

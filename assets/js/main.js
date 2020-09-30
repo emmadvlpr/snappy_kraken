@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
     owl.owlCarousel({
       loop: true,
       nav: true,
-      autoplay: false,
+      autoplay: true,
       smartSpeed: 1200,
 
       navSpeed: 1200,
@@ -32,7 +32,7 @@ jQuery(document).ready(function ($) {
       animateIn: "fadeIn",
       items: 1,
       loop: true,
-      autoplay: true,
+
       smartSpeed: 900,
       margin: 30,
     });
@@ -52,4 +52,13 @@ jQuery(document).ready(function ($) {
       margin: 0,
     });
   }
+
+  //Header Resizer on Scroll
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 800) {
+      $(".home .header").addClass("smaller animated fadeIn");
+    } else {
+      $(".home .header").removeClass("smaller animated fadeIn");
+    }
+  });
 });
