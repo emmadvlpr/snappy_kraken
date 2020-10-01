@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+$(document).ready(function ($) {
   if ($(".with-carousel").length > 0) {
     var owl = $(".with-carousel .owl-carousel");
     owl.owlCarousel({
